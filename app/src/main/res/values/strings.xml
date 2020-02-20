@@ -1,0 +1,152 @@
+<resources>
+
+    <!-- Globals -->
+    <string name="app_name">Control a Distancia</string>
+    <string name="short_app_name">Robot Medico</string>
+    <string name="uri_default">www.google.com</string>
+    <string name="send_button">Send</string>
+    <string name="activity_button">Controles</string>
+    <string name="activity_accelerometer">Accelerometer</string>
+    <string name="activity_voice">Voz</string>
+    <string name="activity_configuration">Configuration</string>
+
+    <string name="ok">OK</string>
+
+    <string name="invalid_hostname">Error: \"%1$s\" invalid hostname.</string>
+    <string name="speech_recognizer_not_found">You do not have a speech recognizer installed on your device.</string>
+    <string name="speech_recognizer_no_matches">The command does not match any keywords.</string>
+
+    <!-- Icon and Images -->
+    <string name="alt_controller">Controller</string>
+    <string name="alt_accelerometer">Accelerometro</string>
+    <string name="alt_megaphone">Megafono</string>
+
+    <string name="alt_arrow_up">Arrow up</string>
+    <string name="alt_arrow_down">Arrow down</string>
+    <string name="alt_arrow_right">Arrow right</string>
+    <string name="alt_arrow_left">Arrow left</string>
+
+    <string name="alt_information">Informacion</string>
+    <string name="alt_wifi">Wifi</string>
+    <string name="alt_configuration">Configuracion</string>
+
+    <!-- Action Button -->
+    <string name="action_button_1">1</string>
+    <string name="action_button_2">2</string>
+    <string name="action_button_3">3</string>
+    <string name="action_button_4">4</string>
+    <string name="action_button_5">5</string>
+    <string name="action_button_6">6</string>
+    <string name="action_button_7">7</string>
+    <string name="action_button_8">8</string>
+
+    <!-- Configuration -->
+
+    <string name="configuration_server">Servidor</string>
+    <string name="configuration_move">Parametros de Movimiento</string>
+    <string name="configuration_action">Parametros de Accion</string>
+    <string name="configuration_speech_recognition">Parametros de Reconocimeinto de voz</string>
+
+    <string name="address_ip_title">Direccion IP</string>
+    <string name="address_ip_dialog_title">Direccion IP</string>
+    <string name="address_ip_dialog_message">Ingresa la IP del Servidor</string>
+
+    <string name="port_title">Puerto</string>
+    <string name="port_dialog_title">Puerto</string>
+    <string name="port_dialog_message">Ingresa el puerto del Servidor</string>
+
+    <string name="move_forward_title">Adelante</string>
+    <string name="move_forward_dialog_title">Move Adelante</string>
+    <string name="move_forward_dialog_message">Ingrese comando para mover adelante</string>
+
+    <string name="move_backward_title">Atras</string>
+    <string name="move_backward_dialog_title">Atras</string>
+    <string name="move_backward_dialog_message">Ingrese comando para mover Atras</string>
+
+    <string name="move_stop_title">Parar</string>
+    <string name="move_stop_dialog_title">Parar</string>
+    <string name="move_stop_dialog_message">Ingrese comando para parar</string>
+
+    <string name="turn_left_title">Izquierda</string>
+    <string name="turn_left_dialog_title">Izquierda</string>
+    <string name="turn_left_dialog_message">Ingrese comando para mover Izquierda</string>
+
+    <string name="turn_right_title">Derecha</string>
+    <string name="turn_right_dialog_title">Derecha</string>
+    <string name="turn_right_dialog_message">Ingrese comando para mover Derecha</string>
+
+    <string name="action_1_title">Action 1</string>
+    <string name="action_1_dialog_title">Action 1</string>
+    <string name="action_1_dialog_message">Enter the command to trigger action 1</string>
+
+    <string name="action_2_title">Action 2</string>
+    <string name="action_2_dialog_title">Action 2</string>
+    <string name="action_2_dialog_message">Enter the command to trigger action 2</string>
+
+    <string name="action_3_title">Action 3</string>
+    <string name="action_3_dialog_title">Action 3</string>
+    <string name="action_3_dialog_message">Enter the command to trigger action 3</string>
+
+    <string name="action_4_title">Action 4</string>
+    <string name="action_4_dialog_title">Action 4</string>
+    <string name="action_4_dialog_message">Enter the command to trigger action 4</string>
+
+    <string name="action_5_title">Action 5</string>
+    <string name="action_5_dialog_title">Action 5</string>
+    <string name="action_5_dialog_message">Enter the command to trigger action 5</string>
+
+    <string name="action_6_title">Action 6</string>
+    <string name="action_6_dialog_title">Action 6</string>
+    <string name="action_6_dialog_message">Enter the command to trigger action 6</string>
+
+    <string name="action_7_title">Action 7</string>
+    <string name="action_7_dialog_title">Action 7</string>
+    <string name="action_7_dialog_message">Enter the command to trigger action 7</string>
+
+    <string name="action_8_title">Action 8</string>
+    <string name="action_8_dialog_title">Action 8</string>
+    <string name="action_8_dialog_message">Enter the command to trigger action 8</string>
+
+    <string name="speech_recognition_language_title">Language</string>
+    <string name="speech_recognition_language_dialog_title">Select your language</string>
+
+    <string name="forward_keyword_title">Forward keyword</string>
+    <string name="forward_keyword_dialog_title">Forward keyword</string>
+    <string name="forward_keyword_dialog_message">Enter the keyword to move forward</string>
+
+    <string name="backward_keyword_title">Backward keyword</string>
+    <string name="backward_keyword_dialog_title">Backward keyword</string>
+    <string name="backward_keyword_dialog_message">Enter the keyword to move backward</string>
+
+    <string name="right_keyword_title">Right keyword</string>
+    <string name="right_keyword_dialog_title">Right keyword</string>
+    <string name="right_keyword_dialog_message">Enter the keyword to turn right</string>
+
+    <string name="left_keyword_title">Left keyword</string>
+    <string name="left_keyword_dialog_title">Left keyword</string>
+    <string name="left_keyword_dialog_message">Enter the keyword to turn left</string>
+
+
+    <!-- Information - Dialog -->
+
+    <string name="configuration_dialog_title">Informacion</string>
+    <string name="configuration_dialog_message"> Comandos para Movimiento:\n
+           • http://IP:PORT/move?dir=B \n
+           • http://IP:PORT/move?dir=S \n
+           • http://IP:PORT/move?dir=R \n
+           • http://IP:PORT/move?dir=L \n
+           Pitter H.
+    </string>
+
+    <string name="button_dialog_title">Information</string>
+    <string name="button_dialog_message">Keep pressing a move button to send the command.\n\nThe \"stop\" command is sent when you release the button.\n\nThe \"action\" command is sent when you click on the action button.</string>
+
+    <string name="accelerometer_dialog_title">Information</string>
+    <string name="accelerometer_dialog_message">Rotate your device to control the car.\n\nThe \"stop\" command is sent when your device is on a flat position.\n\nThe \"action\" command is sent when you click on the action button.</string>
+
+    <string name="voice_dialog_title">Information</string>
+    <string name="voice_dialog_message">The voice commands can be modified in the configuration page.\n\nThe \"stop\" command will be sent after 3 seconds.\n\nThe \"action\" command is sent when you click on the action button.\n\nTo use voice recognition offline, you must download the package corresponding to your language.</string>
+    <string name="voice_recognition_prompt">What do you want to do?</string>
+    <string name="title_activity_temperature">Temperature</string>
+
+</resources>

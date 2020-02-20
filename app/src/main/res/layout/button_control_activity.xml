@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/arrow_down2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="104dp"
+        android:background="@mipmap/termometro_foreground"
+        android:contentDescription="@string/alt_arrow_down"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/arrow_up2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left_center"
+        app:layout_constraintTop_toTopOf="@+id/arrow_up2" />
+
+    <ImageButton
+        android:id="@+id/arrow_down3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/arrow_down"
+        android:contentDescription="@string/alt_arrow_down"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="@+id/arrow_up2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left_center"
+        app:layout_constraintTop_toTopOf="@+id/arrow_up2" />
+
+    <ImageButton
+        android:id="@+id/arrow_left2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="228dp"
+        android:background="@drawable/arrow_left"
+        android:contentDescription="@string/alt_arrow_left"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_left_center"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/arrow_right3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="124dp"
+        android:background="@mipmap/termometro_foreground"
+        android:contentDescription="@string/alt_arrow_right"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_right_center"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_right" />
+
+    <ImageButton
+        android:id="@+id/arrow_right2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="228dp"
+        android:background="@drawable/arrow_right"
+        android:contentDescription="@string/alt_arrow_right"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_right_center"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_right" />
+
+    <ImageButton
+        android:id="@+id/arrow_left3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="124dp"
+        android:background="@mipmap/termometro_foreground"
+        android:contentDescription="@string/alt_arrow_left"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_left_center"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/arrow_up2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/arrow_up"
+        android:contentDescription="@string/alt_arrow_up"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right_center"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left_center"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_down" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_button_control"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme.Toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextAppearance="@style/AppTheme.Toolbar.TitleText" />
+
+    <ImageButton
+        android:id="@+id/arrow_up"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/arrow_up"
+        android:contentDescription="@string/alt_arrow_up"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right_center"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left_center"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_button_control" />
+
+    <ImageButton
+        android:id="@+id/arrow_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/arrow_left"
+        android:contentDescription="@string/alt_arrow_left"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_left_center"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_up" />
+
+    <ImageButton
+        android:id="@+id/arrow_down"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/arrow_down"
+        android:contentDescription="@string/alt_arrow_down"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right_center"
+        app:layout_constraintStart_toStartOf="@+id/guideline_left_center"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_left" />
+
+    <ImageButton
+        android:id="@+id/arrow_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/arrow_right"
+        android:contentDescription="@string/alt_arrow_right"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_right"
+        app:layout_constraintStart_toStartOf="@+id/guideline_right_center"
+        app:layout_constraintTop_toBottomOf="@+id/arrow_up" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.125" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_left_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.375" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_right_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.625" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.875" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
